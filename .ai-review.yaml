@@ -1,0 +1,19 @@
+llm:
+  provider: OPENAI
+  meta:
+    model: gpt-4o-mini
+    max_tokens: 1500
+    temperature: 0.3
+  http_client:
+    api_url: https://api.openai.com/v1
+    api_token: ${OPENAI_API_KEY}
+
+vcs:
+  provider: GIT    # Local Git (works even without GitHub token)
+  pipeline:
+    owner: "curlsek-mustufa"
+    repo: "mycrud"
+
+modes:
+  defaults:
+    - run-summary

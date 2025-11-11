@@ -1,0 +1,9 @@
+HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Allow: POST,GET,HEAD,OPTIONS
+Accept-Patch: 
+Content-Length: 0
+Date: Fri, 31 Oct 2025 13:01:19 GMT
+

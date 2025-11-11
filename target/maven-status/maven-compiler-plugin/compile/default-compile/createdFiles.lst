@@ -1,0 +1,9 @@
+com\example\mycrud\controller\UserController.class
+com\example\mycrud\service\impl\UserServiceImpl.class
+com\example\mycrud\config\CorsConfig.class
+com\example\mycrud\repository\UserRepository.class
+com\example\mycrud\MycrudApplication.class
+com\example\mycrud\model\User.class
+com\example\mycrud\config\WebConfig.class
+com\example\mycrud\service\UserService.class
+com\example\mycrud\model\User$UserBuilder.class
